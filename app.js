@@ -15,7 +15,8 @@ app.use(cors());
 app.use(morgan('dev'))
 app.use(express.json());
 
-mongoose.connect('mongodb://127.0.0.1:27017/rahulEcomm')
+// djFTaO3CdN6JZqmQ
+mongoose.connect('mongodb+srv://atlas-sample-dataset-load-67f4c2504889803090c5d20b:djFTaO3CdN6JZqmQ@cluster0.imcoey4.mongodb.net/?retryWrites=true&w=majority')
 .then(()=>{
     console.log("db is connected")
 }).catch((error)=>{
